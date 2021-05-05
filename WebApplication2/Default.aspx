@@ -39,8 +39,12 @@
             <p>
                 <asp:Label ID="lblDisplay" runat="server" Text="Label"></asp:Label>
                 <asp:Button ID="btnShow" runat="server" Text="Button" OnClick="btnShow_Click" />
+                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
             </p>
-
+            <p>
+                <input type="hidden" name="_EVENTTARGET" value="" />
+                <input type="hidden" name="_EVENTARGUMENT" value="" />
+            </p>
 
         </div>
     </div>

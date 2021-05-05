@@ -17,6 +17,9 @@ namespace WebApplication2
         protected void btnShow_Click(object sender, EventArgs e)
         {
             lblDisplay.Text = "Hello World, ASP.NET!";
+            Response.Write("用户操作的控件名为：" + 
+                ((System.Web.UI.WebControls.WebControl)sender).ID.ToString() + "<br>");
+            Response.Write("用户操作的参数为：" + e.ToString() + "<br>");
         }
     }
 }
