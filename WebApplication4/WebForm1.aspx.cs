@@ -23,19 +23,19 @@ namespace WebApplication4
         {
             switch (e.CommandName)
             {
-                case "ShowNumbers_Asc":
+                case "Show Numbers_Asc":
                     Page.Response.Write("您单击了按钮“递增显示数字”!<br>");
                     ShowNumbers(e.CommandArgument);
                     break;
-                case "ShowNumbers_Desc":
+                case "Show Numbers_Desc":
                     Page.Response.Write("您单击了按钮“递减显示数字”!<br>");
                     ShowNumbers(e.CommandArgument);
                     break;
-                case "ShowLetters_Asc":
+                case "Show Letters_Asc":
                     Page.Response.Write("您单击了按钮“递增显示字母”!<br>");
                     ShowLetters(e.CommandArgument);
                     break;
-                case "ShowLetters_Desc":
+                case "Show Letters_Desc":
                     Page.Response.Write("您单击了按钮“递减显示字母”!<br>");
                     ShowLetters(e.CommandArgument);
                     break;
