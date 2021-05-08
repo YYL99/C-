@@ -11,6 +11,7 @@
     <form id="form1" runat="server">
         <div>
             <asp:Label ID="Label1" runat="server" Text="欢迎来到女士专柜"></asp:Label>
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/WebForm2.aspx">跳转到选择</asp:HyperLink>
         </div>
     </form>
 </body>

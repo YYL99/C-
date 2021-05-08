@@ -25,5 +25,20 @@ namespace WebApplication5
                 Page.Response.Redirect("WebForm4.aspx");
             }
         }
+
+        protected void RadioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void LinkButton1_Command(object sender, CommandEventArgs e)
+        {
+
+        }
+
+        protected void RadioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
